@@ -73,17 +73,7 @@ public class TrueUI implements ActionListener{
            String monthtrue = String.valueOf(mondayOfWeek.getMonth());
            //fake motnhs now
 
-           String monthtrue2 = String.valueOf(Tuesdayofweek.getMonth());
 
-           String monthtrue3 = String.valueOf(Wednesdayofweek.getMonth());
-
-           String monthtrue4 = String.valueOf(Tursdayofweek.getMonth());
-
-           String monthtrue5 = String.valueOf(Fridayofweek.getMonth());
-
-           String monthtrue6 = String.valueOf(Saturdayofweek.getMonth());
-
-           String monthtrue7 = String.valueOf(Sundayofweek.getMonth());
            // end of fake motnhs
            //this is where deth lurksSATURDAYSaturday SUNDAYSunday
            LocalDate tempDate = mondayOfWeek;
@@ -172,28 +162,28 @@ public class TrueUI implements ActionListener{
             panel.add(label,BorderLayout.NORTH);
             panel.setSize(100,100);
 
-            JLabel label2 = new JLabel(" TUESDAY " + day + " " + monthtrue2 + " | ");
+            JLabel label2 = new JLabel(" TUESDAY " + day + " " + monthtrue + " | ");
 
             panel2.add(label2,BorderLayout.NORTH);
             panel2.setSize(100,100);
             // panel 3
-           JLabel label3 = new JLabel(" WEDNESDAY " + day2 + " " + monthtrue3 + " | ");
+           JLabel label3 = new JLabel(" WEDNESDAY " + day2 + " " + monthtrue + " | ");
            panel3.add(label3,BorderLayout.NORTH);
            panel3.setSize(100,100);
            // panel 4
-           JLabel label4 = new JLabel(" TURSDAY " + day4 + " " + monthtrue4 + " |");
+           JLabel label4 = new JLabel(" TURSDAY " + day4 + " " + monthtrue + " |");
            panel4.add(label4,BorderLayout.NORTH);
            panel4.setSize(100,100);
            // panel 5
-           JLabel label5 = new JLabel(" FRIDAY " + day5 + " " + monthtrue5 + " | ");
+           JLabel label5 = new JLabel(" FRIDAY " + day5 + " " + monthtrue + " | ");
            panel5.add(label5,BorderLayout.NORTH);
            panel5.setSize(100,100);
            // panel6
-           JLabel label6 = new JLabel(" SATURDAY " + day6 + " " + monthtrue6 + " | ");
+           JLabel label6 = new JLabel(" SATURDAY " + day6 + " " + monthtrue + " | ");
            panel6.add(label6,BorderLayout.NORTH);
            panel6.setSize(100,100);
            // panel 7
-           JLabel label7 = new JLabel(" SUNDAY " + day7 +  " " + monthtrue7 + " | ");
+           JLabel label7 = new JLabel(" SUNDAY " + day7 +  " " + monthtrue + " | ");
            panel7.add(label7,BorderLayout.NORTH);
            panel7.setSize(100,100);
 
